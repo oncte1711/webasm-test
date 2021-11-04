@@ -1,0 +1,16 @@
+<head>
+    <title>
+        aa
+    </title>
+    <body>
+        hucahuca
+    </body>
+    <script type='module'>
+        import init, {output, alert_window_name} from './pkg/hand_3d_test.js';
+        init()
+            .then(() => {
+                output('from rust');
+                alert_window_name();
+            });
+    </script>
+</head>
